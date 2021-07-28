@@ -1,0 +1,380 @@
+[
+    {
+        "id":1,
+        "name": "Eucalyptus Oil I.P,400gm",
+        "image": "/images/calamine.jpg",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": "₹675.0",
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+        
+ 
+    },
+    {
+        "id":2,
+        "name": "Glycerin I.P,400gm",
+        "image":  "/images/calamine.jpg",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": "₹65.00",
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":3,
+        "name": "Turpentine Oil I.P,400gm",
+        "image":  "/images/calamine.jpg",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": "₹78.00",
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":4,
+        "name": "Castor Oil I.P,400gm",
+        "image":  "/images/calamine.jpg",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": "₹72.00",
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":5,
+        "name": "Paraffin Oil I.P,400gm",
+        "image":  "/images/calamine.jpg",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": "₹70.00",
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":6,
+        "name": "Methyl Salicylate I.P,400gm",
+        "image":  "/images/calamine.jpg",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": "₹215.0",
+        "rating": 1,
+        "stock": 0,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":7,
+        "name": "Boric Acid I.P,400gm",
+        "image": " ",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": "₹748.0",
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":8,
+        "name": "Soda bi carb I.P,400gm",
+        "image": " ",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": "₹22.00",
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":9,
+        "name": "Potassium permanganate IP,400gm",
+        "image": " ",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": "₹100.0",
+        "rating": 1,
+        "stock": 10,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":10,
+        "name": "Zinc oxide IP,400gm",
+        "image": " ",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": "₹115.0",
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":11,
+        "name": "Purified talc IP,400gm",
+        "image": " ",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": "₹14.00",
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":12,
+        "name": "Mag-sulf IP,400gm",
+        "image": " ",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": "₹17.00",
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":13,
+        "name": "Sodium benzoate IP,400gm",
+        "image": " ",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": "₹64.00",
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":14,
+        "name": "Kaolin light IP,400gm",
+        "image": " ",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": "₹14.00",
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":15,
+        "name": "Isopropyl Rubbing alcohol USP,400gm",
+        "image": "/images/isopropyl.jpg",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": "₹50.00",
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":16,
+        "name": "Lint. Turpentine BP,400gm",
+        "image": "https://b.zmtcdn.com/data/pictures/3/18830413/48de3d2041c7e428e4592b8ffee6d411_o2_featured_v2.jpg?output-format=webp",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": "₹85.00",
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":17,
+        "name": "Povidone iodine IP,400gm",
+        "image": " ",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": "₹57.00",
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":18,
+        "name": "Calamine lotion IP,400gm",
+        "image":  "/images/calamine.jpg",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": "₹36.00",
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+        
+         
+    },
+    {
+        "id":19,
+        "name": "Jayscab lotion IP,400gm",
+        "image": " ",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": "₹68.00",
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":20,
+        "name": "Jaysedyl (cough linctus),100gm",
+        "image": " ",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": "₹288.0",
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":21,
+        "name": "Comp Benzoin Tin IP,400gm",
+        "image": " ",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": "₹100.0",
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":22,
+        "name": "Iodine Tinctune USP,350ml",
+        "image": " ",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": "₹105.0",
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":23,
+        "name": "Jaylon (Antiseptic),100gm",
+        "image": " ",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": "₹114.0",
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":24,
+        "name": "Pov.lodine OINTMENT,200gm",
+        "image": " ",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": "₹68.00",
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":25,
+        "name": "squeaky clean (Hand sanitizer),500ml",
+        "image":  "/images/sanitizers.jpg",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": "₹90.00",
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":26,
+        "name": "Cologne water",
+        "image" : "/images/cologne.jpg" ,
+        "category": " ",
+        "brand": " ",
+        "price": "₹90.00",
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":27,
+        "name": "Lime Cologne water",
+        "image" :  "/images/lime cologne.jpg" ,
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": "₹90.00",
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    }
+    
+]
