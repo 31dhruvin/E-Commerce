@@ -1,6 +1,6 @@
 import React, { useState,useContext} from 'react'
-import {Link,Redirect} from 'react-router-dom'
-import fire from '../Firebase'
+import {Link} from 'react-router-dom'
+import {fire} from '../Firebase'
 import {useHistory} from "react-router-dom"
 import swal from "sweetalert";
 import UserStore from '../Store'
@@ -57,9 +57,12 @@ function Login() {
                     <label htmlFor="password" className="form-label">Password</label>
                         <input type="password" className="form-control shadow-none" id="password" placeholder="password" style={{width:"50%"}}/>
                 </div>
-                <button className="btn btn-outline-dark shadow-none my-4" type="submit" onClick={() => history.push('/signup')} style={{width:"50%"}}>Sign Up?</button><br />
-                <button className="btn btn-outline-dark shadow-none my-4" type="submit" onClick={() => history.push('/reset')} style={{width:"50%"}}>Forgot Password?</button>
-                    
+                <p className="form-text" style={{textDecoration:"none"}}>
+                    <Link className="text-dark" to="/signup">Sign Up?</Link>
+                </p> 
+                <p className="form-text" style={{textDecoration:"none"}}>
+                    <Link className="text-dark" to="/reset">Forgot password?</Link>
+                </p>   
                 <div className="col-12 mt-1">
                     <button className="btn btn-outline-dark shadow-none" onClick={loginhandler} type="submit" style={{width:"50%"}}>Login{" "}
                     {loading ? <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span> : ""}                 

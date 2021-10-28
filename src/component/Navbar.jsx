@@ -1,16 +1,19 @@
 import React, { useContext,useState } from 'react';
-import './dashboard.scss'
-import {BrowserRouter as Router, Link,Switch,Route, useHistory, Redirect} from 'react-router-dom'
+import {BrowserRouter as Router, Link,Switch,Route,Redirect} from 'react-router-dom'
 import Dashboard from './Dashboard'
 import Login from './Login'
 import SignUp from './SignUp'
 import Reset from './Reset'
 import Calamine from "./Calamine"
-import fire from '../Firebase'
+import {fire} from '../Firebase'
 import Data from './product.json'
-import UserStore from "../Store";  
+import UserStore from "../Store";
+import {Cart}  from './Cart'
+import {Order} from './Order'
+import { CartContext } from './Cartcontext';
 
 function Navbar() {
+  const {totalQty} = useContext(CartContext)
   const { userData, setUserData } = useContext(UserStore);useState({
     auth:false,
   });
@@ -43,7 +46,10 @@ function Navbar() {
         </li>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <li className="nav-item">
-          <Link to="/link" className="nav-link" ><strong>Link</strong></Link>
+          <Link to="/cartproducts" className="nav-link"><strong>Cart</strong></Link>
+          <div className="relative">
+          <span className="no-of-products" >{totalQty}</span>
+          </div>
         </li>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <li className="nav-item">
@@ -83,8 +89,10 @@ function Navbar() {
      
 <Switch>
     <Route exact path="/" component={Dashboard} />
-    <Route exact path="/product/:name" >
-            <Calamine Data={Data} />
+    <Route exact path="/product/:name" component={Calamine} />
+    <Route exact path="/cartproducts" component={Cart} />
+    <Route exact path="/cashout" component={Order} >
+            
         </Route>
         <Route exact path="/login">
               {userData.auth ? <Redirect to="/" /> : <Login />}

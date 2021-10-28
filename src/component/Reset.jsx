@@ -1,5 +1,5 @@
 import React from 'react'
-import fire from '../Firebase'
+import {fire} from '../Firebase'
 import {useHistory} from "react-router-dom"
 import swal from "sweetalert";
 

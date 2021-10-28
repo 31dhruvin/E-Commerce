@@ -6,7 +6,7 @@
         "description": " ",
         "category": " ",
         "brand": " ",
-        "price": "₹675.0",
+        "price": 675.0,
         "rating": 1,
         "stock": 2,
         "numReviews": 2
@@ -20,7 +20,7 @@
         "description": " ",
         "category": " ",
         "brand": " ",
-        "price": "₹65.00",
+        "price": 65.00,
         "rating": 1,
         "stock": 2,
         "numReviews": 2
@@ -34,7 +34,7 @@
         "description": " ",
         "category": " ",
         "brand": " ",
-        "price": "₹78.00",
+        "price": 78.00,
         "rating": 1,
         "stock": 2,
         "numReviews": 2
@@ -48,7 +48,7 @@
         "description": " ",
         "category": " ",
         "brand": " ",
-        "price": "₹72.00",
+        "price": 72.00,
         "rating": 1,
         "stock": 2,
         "numReviews": 2
@@ -62,7 +62,7 @@
         "description": " ",
         "category": " ",
         "brand": " ",
-        "price": "₹70.00",
+        "price": 70.00,
         "rating": 1,
         "stock": 2,
         "numReviews": 2
@@ -76,7 +76,7 @@
         "description": " ",
         "category": " ",
         "brand": " ",
-        "price": "₹215.0",
+        "price": 215.0,
         "rating": 1,
         "stock": 0,
         "numReviews": 2
@@ -90,7 +90,7 @@
         "description": " ",
         "category": " ",
         "brand": " ",
-        "price": "₹748.0",
+        "price": 748.0,
         "rating": 1,
         "stock": 2,
         "numReviews": 2
@@ -104,7 +104,7 @@
         "description": " ",
         "category": " ",
         "brand": " ",
-        "price": "₹22.00",
+        "price": 22.00,
         "rating": 1,
         "stock": 2,
         "numReviews": 2
@@ -118,7 +118,7 @@
         "description": " ",
         "category": " ",
         "brand": " ",
-        "price": "₹100.0",
+        "price": 100.0,
         "rating": 1,
         "stock": 10,
         "numReviews": 2
@@ -132,7 +132,7 @@
         "description": " ",
         "category": " ",
         "brand": " ",
-        "price": "₹115.0",
+        "price": 115.0,
         "rating": 1,
         "stock": 2,
         "numReviews": 2
@@ -146,7 +146,7 @@
         "description": " ",
         "category": " ",
         "brand": " ",
-        "price": "₹14.00",
+        "price": 14.00,
         "rating": 1,
         "stock": 2,
         "numReviews": 2
@@ -160,7 +160,7 @@
         "description": " ",
         "category": " ",
         "brand": " ",
-        "price": "₹17.00",
+        "price": 17.00,
         "rating": 1,
         "stock": 2,
         "numReviews": 2
@@ -174,7 +174,7 @@
         "description": " ",
         "category": " ",
         "brand": " ",
-        "price": "₹64.00",
+        "price": 64.00,
         "rating": 1,
         "stock": 2,
         "numReviews": 2
@@ -188,7 +188,7 @@
         "description": " ",
         "category": " ",
         "brand": " ",
-        "price": "₹14.00",
+        "price": 14.00,
         "rating": 1,
         "stock": 2,
         "numReviews": 2
@@ -202,7 +202,7 @@
         "description": " ",
         "category": " ",
         "brand": " ",
-        "price": "₹50.00",
+        "price": 50.00,
         "rating": 1,
         "stock": 2,
         "numReviews": 2
@@ -216,7 +216,7 @@
         "description": " ",
         "category": " ",
         "brand": " ",
-        "price": "₹85.00",
+        "price": 85.00,
         "rating": 1,
         "stock": 2,
         "numReviews": 2
@@ -230,7 +230,7 @@
         "description": " ",
         "category": " ",
         "brand": " ",
-        "price": "₹57.00",
+        "price": 57.00,
         "rating": 1,
         "stock": 2,
         "numReviews": 2
@@ -244,7 +244,7 @@
         "description": " ",
         "category": " ",
         "brand": " ",
-        "price": "₹36.00",
+        "price": 36.00,
         "rating": 1,
         "stock": 2,
         "numReviews": 2
@@ -258,7 +258,7 @@
         "description": " ",
         "category": " ",
         "brand": " ",
-        "price": "₹68.00",
+        "price": 68.00,
         "rating": 1,
         "stock": 2,
         "numReviews": 2
@@ -272,7 +272,7 @@
         "description": " ",
         "category": " ",
         "brand": " ",
-        "price": "₹288.0",
+        "price": 288.0,
         "rating": 1,
         "stock": 2,
         "numReviews": 2
@@ -286,7 +286,7 @@
         "description": " ",
         "category": " ",
         "brand": " ",
-        "price": "₹100.0",
+        "price": 100.0,
         "rating": 1,
         "stock": 2,
         "numReviews": 2
@@ -300,7 +300,7 @@
         "description": " ",
         "category": " ",
         "brand": " ",
-        "price": "₹105.0",
+        "price": 105.0,
         "rating": 1,
         "stock": 2,
         "numReviews": 2
@@ -314,7 +314,7 @@
         "description": " ",
         "category": " ",
         "brand": " ",
-        "price": "₹114.0",
+        "price": 114.0,
         "rating": 1,
         "stock": 2,
         "numReviews": 2
@@ -328,7 +328,7 @@
         "description": " ",
         "category": " ",
         "brand": " ",
-        "price": "₹68.00",
+        "price": 68.00,
         "rating": 1,
         "stock": 2,
         "numReviews": 2
@@ -342,7 +342,7 @@
         "description": " ",
         "category": " ",
         "brand": " ",
-        "price": "₹90.00",
+        "price": 90.00,
         "rating": 1,
         "stock": 2,
         "numReviews": 2
@@ -355,7 +355,7 @@
         "image" : "/images/cologne.jpg" ,
         "category": " ",
         "brand": " ",
-        "price": "₹90.00",
+        "price": 90.00,
         "rating": 1,
         "stock": 2,
         "numReviews": 2
@@ -369,7 +369,7 @@
         "description": " ",
         "category": " ",
         "brand": " ",
-        "price": "₹90.00",
+        "price": 90.00,
         "rating": 1,
         "stock": 2,
         "numReviews": 2

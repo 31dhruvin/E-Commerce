@@ -1,6 +1,6 @@
 import React, { useState,useContext } from 'react'
 import {Link} from "react-router-dom"
-import fire from '../Firebase'
+import {fire} from '../Firebase'
 import swal from "sweetalert";
 import {useHistory} from "react-router-dom"
 import UserStore from '../Store'
@@ -54,7 +54,9 @@ function SignUp() {
                         <input type="password" className="form-control shadow-none" id="password" placeholder="password" required style={{width:"50%"}}/>
                 </div>
                 
-                <button className="btn btn-outline-dark shadow-none my-4" type="submit" onClick={() => history.push('/login')} style={{width:"50%"}}>Login?</button><br />
+                <p className="form-text" style={{textDecoration:"none"}}>
+                    <Link className="text-dark" to="/login">Login?</Link>
+                </p> 
                 
               
                 <div className="col-12 mt-2">
