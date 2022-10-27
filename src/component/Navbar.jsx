@@ -1,4 +1,4 @@
-import React, { useContext,useState } from 'react';
+import React, { useContext,useState } from 'react'
 import {BrowserRouter as Router, Link,Switch,Route,Redirect} from 'react-router-dom'
 import Dashboard from './Dashboard'
 import Login from './Login'
@@ -7,16 +7,16 @@ import Reset from './Reset'
 import Calamine from "./Calamine"
 import {fire} from '../Firebase'
 import Data from './product.json'
-import UserStore from "../Store";
+import UserStore from "../Store"
 import {Cart}  from './Cart'
 import {Order} from './Order'
-import { CartContext } from './Cartcontext';
+import { CartContext } from './Cartcontext'
 
 function Navbar() {
   const {totalQty} = useContext(CartContext)
   const { userData, setUserData } = useContext(UserStore);useState({
     auth:false,
-  });
+  })
   const Logout = () =>{
     fire.auth().signOut().then(() => {
       setUserData({
@@ -26,7 +26,7 @@ function Navbar() {
       })
     }).catch((error) => {
       console.log(error.message)
-    });
+    })
   }
   
     return (
@@ -52,17 +52,17 @@ function Navbar() {
           </div>
         </li>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <Link to="/services" className="nav-link" tabindex="-1" aria-disabled="true"><strong>Services</strong></Link>
         </li>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
         <li className="nav-item">
           <Link to="/wishlist" className="nav-link" tabindex="-1" aria-disabled="true"><strong>Wishlist</strong></Link>
         </li>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
         <li className="nav-item">
           <Link to="/profile" className="nav-link" tabindex="-1" aria-disabled="true"><strong>Profile</strong></Link>
-        </li>
+        </li> */}
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         {
                 userData.auth ? (
@@ -76,24 +76,26 @@ function Navbar() {
                 (
                   <span></span>
                 )
-              };
+              }
 
       </ul>
-      <form className="d-flex">
-        <input className="form-control me-2 shadow-none" type="search" placeholder="Search" aria-label="Search" />
-        <button className="btn btn-outline-success" type="submit">Search</button>
-      </form>
+     
       </div>
       </div>
       </nav>
      
+      
+
+
+
+
 <Switch>
     <Route exact path="/" component={Dashboard} />
     <Route exact path="/product/:name" component={Calamine} />
     <Route exact path="/cartproducts" component={Cart} />
-    <Route exact path="/cashout" component={Order} >
-            
-        </Route>
+    <Route exact path="/cashout" component={Order}  />
+    
+        
         <Route exact path="/login">
               {userData.auth ? <Redirect to="/" /> : <Login />}
             </Route>

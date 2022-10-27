@@ -1,0 +1,115 @@
+[
+    {
+        "id":1,
+        "name": "Eucalyptus Oil I.P,400gm",
+        "image": "/images/isopropyl.jpg ",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": 675.0,
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+        
+ 
+    },
+    {
+        "id":2,
+        "name": "Glycerin I.P,400gm",
+        "image":  "/images/calamine.jpg",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": 65.00,
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":3,
+        "name": "Turpentine Oil I.P,400gm",
+        "image":  "/images/cologne.jpg",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": 78.00,
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":4,
+        "name": "Castor Oil I.P,400gm",
+        "image":  "/images/calamine.jpg",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": 72.00,
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":5,
+        "name": "Paraffin Oil I.P,400gm",
+        "image":  "/images/calamine.jpg",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": 70.00,
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    }
+    ,
+    {
+        "id":19,
+        "name": "Jayscab lotion IP,400gm",
+        "image": "/images/isopropyl.jpg ",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": 68.00,
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":20,
+        "name": "Jaysedyl (cough linctus),100gm",
+        "image": "/images/calamine.jpg",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": 288.0,
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":21,
+        "name": "Comp Benzoin Tin IP,400gm",
+        "image": " /images/cologne.jpg",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": 100.0,
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    }
+]

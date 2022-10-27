@@ -1,0 +1,86 @@
+[
+    {
+        "id":1,
+        "name": "Eucalyptus Oil I.P,400gm",
+        "image": "/images/calamine.jpg",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": 675.0,
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+        
+ 
+    },
+    {
+        "id":6,
+        "name": "Methyl Salicylate I.P,400gm",
+        "image":  "/images/calamine.jpg",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": 215.0,
+        "rating": 1,
+        "stock": 0,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":7,
+        "name": "Boric Acid I.P,400gm",
+        "image":"/images/isopropyl.jpg",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": 748.0,
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":8,
+        "name": "Soda bi carb I.P,400gm",
+        "image": "/images/isopropyl.jpg ",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": 22.00,
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":9,
+        "name": "Potassium permanganate IP,400gm",
+        "image": " /images/cologne.jpg",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": 100.0,
+        "rating": 1,
+        "stock": 10,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":10,
+        "name": "Zinc oxide IP,400gm",
+        "image": "/images/cologne.jpg",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": 115.0,
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    }
+]
