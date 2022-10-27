@@ -23,10 +23,10 @@ const Dashboard = () => {
   <div className="carousel-inner">
     
     <div className="carousel-item">
-      <img src="https://img.freepik.com/free-vector/online-pharmacy-service_107791-2650.jpg?size=626&ext=jpg&ga=GA1.2.1646031593.1659596900" className="d-block" alt="..."style={{height:"430px",width:"auto"}}  />
+      <img src="https://img.freepik.com/free-vector/online-pharmacy-service_107791-2650.jpg?size=626&ext=jpg&ga=GA1.2.1646031593.1659596900" className="d-block" alt="..."style={{height:"430px",width:"500px"}}  />
     </div>
     <div className="carousel-item active">
-      <img src="https://img.freepik.com/free-vector/pharmacists-holding-bottles-with-antibiotic-pills-vitamins-drugs-thermometer-ointment-tube-vector-illustration-drugstore-medical-store-pharmacy-pharmaceutical-business-concept_74855-10132.jpg?size=626&ext=jpg&ga=GA1.2.1646031593.1659596900" className="d-block"alt="..." style={{height:"430px",width:"auto"}} />
+      <img src="https://img.freepik.com/free-vector/pharmacists-holding-bottles-with-antibiotic-pills-vitamins-drugs-thermometer-ointment-tube-vector-illustration-drugstore-medical-store-pharmacy-pharmaceutical-business-concept_74855-10132.jpg?size=626&ext=jpg&ga=GA1.2.1646031593.1659596900" className="d-block"alt="..." style={{height:"430px",width:"500px"}} />
     </div>
    
   </div>
