@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter as Router} from 'react-router-dom'
+import {BrowserRouter} from 'react-router-dom'
 import App from "./component/App";
 
-ReactDOM.render(<Router><App /></Router>,document.getElementById("root"));
+ReactDOM.render(<BrowserRouter basename='/E-Commerce'><App /></BrowserRouter>,document.getElementById("root"));
