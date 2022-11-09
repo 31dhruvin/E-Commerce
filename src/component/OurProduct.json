@@ -2,7 +2,7 @@
     {
         "id":1,
         "name": "Eucalyptus Oil I.P,400gm",
-        "image": "/images/isopropyl.jpg ",
+        "image": "https://media.istockphoto.com/id/1389571929/photo/eucalyptus-essential-oil.jpg?b=1&s=170667a&w=0&k=20&c=7sITS9ZgxU0Yd4joP8huHzyig1zcfRVO-xQpK7W86Ts=",
         "description": " ",
         "category": " ",
         "brand": " ",
@@ -16,7 +16,7 @@
     {
         "id":2,
         "name": "Glycerin I.P,400gm",
-        "image":  "/images/calamine.jpg",
+        "image":  "https://thumbs.dreamstime.com/b/selective-focus-glycerin-glass-bottle-white-laboratory-background-copy-space-glycerol-196171218.jpg",
         "description": " ",
         "category": " ",
         "brand": " ",
@@ -30,82 +30,11 @@
     {
         "id":3,
         "name": "Turpentine Oil I.P,400gm",
-        "image":  "/images/cologne.jpg",
+        "image":  "https://media.istockphoto.com/id/1086090334/photo/pine-turpentine-essential-oil-in-glass-bottle-with-pine-coniferous-leaves-and-pine-cone-on.jpg?s=612x612&w=0&k=20&c=1xGqS6PJEMZdE9-aWTniSysjrusVy1QHKd824STuhlk=",
         "description": " ",
         "category": " ",
         "brand": " ",
         "price": 78.00,
-        "rating": 1,
-        "stock": 2,
-        "numReviews": 2
-    
-        
-    },
-    {
-        "id":4,
-        "name": "Castor Oil I.P,400gm",
-        "image":  "/images/calamine.jpg",
-        "description": " ",
-        "category": " ",
-        "brand": " ",
-        "price": 72.00,
-        "rating": 1,
-        "stock": 2,
-        "numReviews": 2
-    
-        
-    },
-    {
-        "id":5,
-        "name": "Paraffin Oil I.P,400gm",
-        "image":  "/images/calamine.jpg",
-        "description": " ",
-        "category": " ",
-        "brand": " ",
-        "price": 70.00,
-        "rating": 1,
-        "stock": 2,
-        "numReviews": 2
-    
-        
-    }
-    ,
-    {
-        "id":19,
-        "name": "Jayscab lotion IP,400gm",
-        "image": "/images/isopropyl.jpg ",
-        "description": " ",
-        "category": " ",
-        "brand": " ",
-        "price": 68.00,
-        "rating": 1,
-        "stock": 2,
-        "numReviews": 2
-    
-        
-    },
-    {
-        "id":20,
-        "name": "Jaysedyl (cough linctus),100gm",
-        "image": "/images/calamine.jpg",
-        "description": " ",
-        "category": " ",
-        "brand": " ",
-        "price": 288.0,
-        "rating": 1,
-        "stock": 2,
-        "numReviews": 2
-    
-        
-    },
-    {
-        "id":21,
-        "name": "Comp Benzoin Tin IP,400gm",
-        "image": " /images/cologne.jpg",
-        "description": " ",
-        "category": " ",
-        "brand": " ",
-        "price": 100.0,
         "rating": 1,
         "stock": 2,
         "numReviews": 2

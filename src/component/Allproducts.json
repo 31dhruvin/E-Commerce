@@ -69,7 +69,20 @@
     
         
     },
+    {
+        "id":6,
+        "name": "Methyl Salicylate I.P,400gm",
+        "image":  "https://5.imimg.com/data5/YQ/VD/HL/SELLER-11090493/methyl-salicylate-500x500.jpeg",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": 215.0,
+        "rating": 1,
+        "stock": 0,
+        "numReviews": 2
     
+        
+    },
     {
         "id":7,
         "name": "Boric Acid I.P,400gm",
@@ -126,15 +139,14 @@
     
         
     },
-    
     {
-        "id":4,
-        "name": "Castor Oil I.P,400gm",
-        "image":  "https://thumbs.dreamstime.com/b/beans-castor-oil-beans-castor-oil-black-table-113497515.jpg",
+        "id":11,
+        "name": "Purified talc IP,400gm",
+        "image": " ",
         "description": " ",
         "category": " ",
         "brand": " ",
-        "price": 72.00,
+        "price": 14.00,
         "rating": 1,
         "stock": 2,
         "numReviews": 2
@@ -142,13 +154,13 @@
         
     },
     {
-        "id":5,
-        "name": "Paraffin Oil I.P,400gm",
-        "image":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa9GJ6xD2PY6kCaTyqFE_7GgYByeJb5lCrvg&usqp=CAU",
+        "id":12,
+        "name": "Mag-sulf IP,400gm",
+        "image": " ",
         "description": " ",
         "category": " ",
         "brand": " ",
-        "price": 70.00,
+        "price": 17.00,
         "rating": 1,
         "stock": 2,
         "numReviews": 2
@@ -156,27 +168,13 @@
         
     },
     {
-        "id":6,
-        "name": "Methyl Salicylate I.P,400gm",
-        "image":  "https://thumbs.dreamstime.com/b/methyl-alcohol-flammable-chemical-laboratory-industry-252575834.jpg",
+        "id":13,
+        "name": "Sodium benzoate IP,400gm",
+        "image": " ",
         "description": " ",
         "category": " ",
         "brand": " ",
-        "price": 215.0,
-        "rating": 1,
-        "stock": 0,
-        "numReviews": 2
-    
-        
-    },
-    {
-        "id":7,
-        "name": "Boric Acid I.P,400gm",
-        "image": "https://thumbs.dreamstime.com/b/boric-acid-chemical-used-laboratory-industry-245506425.jpg",
-        "description": " ",
-        "category": " ",
-        "brand": " ",
-        "price": 748.0,
+        "price": 64.00,
         "rating": 1,
         "stock": 2,
         "numReviews": 2
@@ -184,7 +182,119 @@
         
     },
     {
-        "id":8,
+        "id":14,
+        "name": "Kaolin light IP,400gm",
+        "image": " ",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": 14.00,
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":15,
+        "name": "Isopropyl Rubbing alcohol USP,400gm",
+        "image": "/images/isopropyl.jpg",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": 50.00,
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":16,
+        "name": "Lint. Turpentine BP,400gm",
+        "image": "https://b.zmtcdn.com/data/pictures/3/18830413/48de3d2041c7e428e4592b8ffee6d411_o2_featured_v2.jpg?output-format=webp",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": 85.00,
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":17,
+        "name": "Povidone iodine IP,400gm",
+        "image": " ",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": 57.00,
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":18,
+        "name": "Calamine lotion IP,400gm",
+        "image":  "/images/calamine.jpg",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": 36.00,
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+        
+         
+    },
+    {
+        "id":19,
+        "name": "Jayscab lotion IP,400gm",
+        "image": " ",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": 68.00,
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":20,
+        "name": "Jaysedyl (cough linctus),100gm",
+        "image": " ",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": 288.0,
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":21,
+        "name": "Comp Benzoin Tin IP,400gm",
+        "image": " ",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": 100.0,
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":22,
         "name": "Iodine Tincture USP,350ml",
         "image": "https://images.unsplash.com/photo-1608571702600-5a5419d31475?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGRyb3BwZXIlMjBib3R0bGV8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
         "description": " ",
@@ -198,33 +308,73 @@
         
     },
     {
-        "id":9,
-        "name": "Potassium permanganate IP,400gm",
-        "image": "https://thumbs.dreamstime.com/b/measuring-cup-purple-substance-potassium-permanganate-pipette-near-black-medical-pear-everything-table-160670437.jpg",
+        "id":23,
+        "name": "Jaylon (Antiseptic),100gm",
+        "image": " ",
         "description": " ",
         "category": " ",
         "brand": " ",
-        "price": 100.0,
+        "price": 114.0,
         "rating": 1,
-        "stock": 10,
+        "stock": 2,
         "numReviews": 2
     
         
     },
     {
-        "id":10,
-        "name": "Zinc oxide IP,400gm",
-        "image": "https://thumbs.dreamstime.com/b/zinc-oxide-white-powder-used-as-fungal-growth-inhibitor-paints-antiseptic-ointment-medicine-212087240.jpg",
+        "id":24,
+        "name": "Pov.lodine OINTMENT,200gm",
+        "image": " ",
         "description": " ",
         "category": " ",
         "brand": " ",
-        "price": 115.0,
+        "price": 68.00,
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":25,
+        "name": "squeaky clean (Hand sanitizer),500ml",
+        "image":  "/images/sanitizers.jpg",
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": 90.00,
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":26,
+        "name": "Cologne water",
+        "image" : "/images/cologne.jpg" ,
+        "category": " ",
+        "brand": " ",
+        "price": 90.00,
+        "rating": 1,
+        "stock": 2,
+        "numReviews": 2
+    
+        
+    },
+    {
+        "id":27,
+        "name": "Lime Cologne water",
+        "image" :  "/images/lime cologne.jpg" ,
+        "description": " ",
+        "category": " ",
+        "brand": " ",
+        "price": 90.00,
         "rating": 1,
         "stock": 2,
         "numReviews": 2
     
         
     }
-    
     
 ]

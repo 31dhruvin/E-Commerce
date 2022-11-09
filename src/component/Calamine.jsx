@@ -7,18 +7,22 @@ import { BrowserRouter as Router,useHistory,Link } from 'react-router-dom'
 import { CartContext } from './Cartcontext';
 import Data2 from './Similar.json'
 const Calamine = ({match,history}) =>  {
+    const [shown,setShown] = useState(false);
     const {dispatch} = useContext(CartContext)
     const { userData, setUserData } = useContext(UserStore);useState({
         auth:false,
       });
-    console.log(match)
-    console.log(match.params.name)
+    // console.log(match)
+    // console.log(match.params.name)
 
     const pro = data.find(card=>card.name === match.params.name)
-    console.log(pro)
+    // console.log(pro)
+    const shownClick = event =>{
+        setShown(current => !current)
+    }
     return (
         <>
-        <div style={{overflowX:"hidden"}}> 
+        {/* <div style={{overflowX:"hidden"}}> 
         
             
                 <div className="row md-3">
@@ -51,14 +55,14 @@ const Calamine = ({match,history}) =>  {
                 
                     {
                         userData.auth ? (
-                            <button className="my-3 p-3 btn-dark btn-lg" style={{width:"auto",fontSize:"15px",padding:"8px"}} onClick={()=> {dispatch({type:'ADD to Cart',name:pro.name, pro})}} disabled={pro.stock === 0}><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;Add to Cart</button>
+                            <button className="my-3 p-3 btn-dark btn-lg"  onClick={()=> {dispatch({type:'ADD to Cart',name:pro.name, pro})}} disabled={pro.stock === 0}><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;Add to Cart</button>
                         ):(
-                            <button className="my-3 p-3 btn-dark btn-lg" style={{width:"auto",fontSize:"15px",padding:"8px"}} onClick={()=>history.push("/login")} disabled={pro.stock === 0}><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;Add to Cart</button>
+                            <button className="my-3 p-3 btn-dark btn-lg"  onClick={()=>history.push("/login")} disabled={pro.stock === 0}><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;Add to Cart</button>
           
                         )
                     }
-                {/* <button className="my-3 p-3 btn-dark btn-lg" style={{width:"auto",fontSize:"15px",padding:"8px"}} onClick={()=>history.push("/login")} disabled={pro.stock === 0}><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;Add to Cart</button> */}
-            </div>
+                {/* <button className="my-3 p-3 btn-dark btn-lg"  onClick={()=>history.push("/login")} disabled={pro.stock === 0}><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp;Add to Cart</button> */}
+            {/* </div>
         
     
                     </div>
@@ -70,8 +74,8 @@ const Calamine = ({match,history}) =>  {
                     
                     
 
-                </div>
-            <div className="col md-3"style={{marginTop:"2.57%"}}>
+                </div> */}
+            {/* <div className="col md-3"style={{marginTop:"2.57%"}}>
             <h4 className="calamine_name" style={{textAlign:"left"}}>Delivery</h4>
             <h6 className="calamine_des">Hello</h6>
             <hr />
@@ -87,24 +91,75 @@ const Calamine = ({match,history}) =>  {
             </div>
 
             </div>
-            <hr />
+            <hr /> */} 
             
-            <section className="features similar" id="features">
-            <h5 className="headings" style={{marginBottom:"2%",textAlign:"left"}}> similar <span>Products</span> </h5>
-                      <div className="box-container" >
-                       
-                          {Data2.map((items,index)=>(
-                            <div className="box" style={{height:"100%"}}>
-                           <Link to={`/product/${items.name}`} style={{color:"black"}}>
-                                  <img src={items.image} style={{height:"10rem"}} />
-                            </Link>    
-                            <h3>{items.name}</h3>                            
-                            <h6 style={{marginTop:"5%"}}>Rs. {items.price}</h6>
-                            <span style={{color:"green", margintop:"-5%"}}>inclusive of all taxes</span>
-                                                      </div>
-                          ))}
-                          </div>
-                          </section>
+            {/* ------ */}
+            <div class="why-choose-section mb-5">
+			<div class="container">
+				<div class="row justify-content-between">
+                <div class="col-lg-5">
+						<div class="img-wrap">
+							<img src={pro.image} alt="Image" />
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<h2 class="section-title one">{pro.name}</h2>
+						<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
+                        
+                        <div className="btn btn-outline-dark shadow-none" style={{width:"200px"}} aria-current="page">4.5<i class="fas fa-star" style={{color:"orange"}}></i>|121 Ratings</div>
+                        <br />
+						<h3 className='my-3'>Rs. {pro.price}</h3>
+                        {
+                        userData.auth ? (
+                            <button className="btn btn-outline-dark shadow-none"  onClick={()=> {dispatch({type:'ADD to Cart',name:pro.name, pro})}} disabled={pro.stock === 0}><i class="fas fa-cart-shopping"></i>&nbsp;&nbsp;Add to Cart</button>
+                        ):(
+                            <button className="btn btn-outline-dark shadow-none"  onClick={()=>history.push("/login")} disabled={pro.stock === 0}><i class="fas fa-cart-shopping"></i>&nbsp;&nbsp;Add to Cart</button>
+          
+                        )
+                    }
+
+
+                      
+
+						</div>
+					</div>
+                    {/* <section className="features review" id="features">
+
+<div className="box-container">
+
+    
+    <button 
+    className="btn btn-outline-dark shadow-none"
+    onClick={shownClick} style={{width:"100%"}}
+    
+    >Description</button>
+    {
+        
+        shown || (
+            <div className="box">
+            Hello
+        </div>
+        )
+    }
+
+     <button 
+    className="btn btn-outline-dark shadow-none"
+    onClick={shownClick} style={{width:"100%"}}
+    >Manufacturer</button>
+         <button 
+    className="btn btn-outline-dark shadow-none"
+    onClick={shownClick} style={{width:"100%"}}
+    >Reviews</button>
+
+
+
+</div>
+
+</section>   */}
+				</div>
+			</div>
+        
+ 
 </>            
 
     )
