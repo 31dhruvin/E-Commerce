@@ -142,12 +142,11 @@ a {
         font-size: 54px; } }
   .hero p {
     color: rgba(11, 10, 10, 0.5);
-    margin-botom: 30px; }
+    margin-bottom: 30px;
+  }
   .hero .hero-img-wrap {
     position: relative; }
-    .hero .hero-img-wrap img {
-
-}
+    
       @media (min-width: 768px) {
         .hero .hero-img-wrap img {
           right: 0px;
@@ -374,7 +373,7 @@ a {
       content: "";
       width: 255px;
       height: 217px;
-      background-image: url("E:\Summer\jcw\src\images\dots-green.svg");
+      
       background-size: contain;
       background-repeat: no-repeat;
       -webkit-transform: translate(-40%, -40%);
